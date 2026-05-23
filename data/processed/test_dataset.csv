@@ -1,7 +1,21 @@
 prompt,answer
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problem mit dem Dell XPS 13 9310 Bildschirmflackern
 Body: Sehr geehrter Kunde des Tech Online Store, ich erlebe intermittierendes Bildschirmflackern mit meinem Dell XPS 13 9310. Dieses Problem verursacht erhebliche Unannehmlichkeiten bei der Arbeit. Ihre umgehende Unterstützung zur Lösung dieses Problems wäre sehr willkommen. Vielen Dank. Mit freundlichen Grüßen, <name>
 Language: de
@@ -9,8 +23,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema de Lentidão ao Carregar no Jira Software
 Body: Prezado Suporte ao Cliente,
 
@@ -26,8 +54,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent EC2 issue
 Body: Dear IT Services team, I am experiencing issues with an EC2 instance not responding. I require urgent assistance with my AWS Management Service environment. Please get back to me as soon as possible. Best regards, <name>.
 Language: en
@@ -35,8 +77,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Screen Issue
 Body: Hello, 
 
@@ -50,8 +106,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringende Unterstützung erforderlich
 Body: Sehr geehrter Kundenservice, 
 
@@ -68,8 +138,22 @@ Business type: IT Consulting Firm
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Overheating issue with Dell XPS 13 9310 after usage
 Body: Dear Support Team, I recently purchased a Dell XPS 13 9310 and am experiencing overheating issues after roughly an hour of use. Please assist in resolving this issue. looking forward to your prompt response. Regards, <name>.
 Language: en
@@ -77,8 +161,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problem beim Ändern des Status im Jira-Softwareprojekt
 Body: Sehr geehrtes Kundenserviceteam,
 
@@ -93,8 +191,22 @@ Business type: Software Development Company
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Issue with Dell XPS 13 9310
 Body: Screen goes black intermittently. Need troubleshooting for hardware or software cause.
 Language: en
@@ -102,8 +214,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Anfrage zur Leistungsoptimierung für das Ticketsystem
 Body: Sehr geehrter Kundensupport,<br><br>Wir benötigen eine Leistungsoptimierung für unser bestehendes Ticketsystem sowie Unterstützung bei einer effizienten Lastverteilung auf dem Server. Die Probleme beeinträchtigen unseren IT-Consulting-Service und erfordern dringende Aufmerksamkeit.<br><br>Vielen Dank für Ihre Unterstützung.<br><br>Mit freundlichen Grüßen,<br><name>
 Language: de
@@ -111,8 +237,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Ticket-Anhangsproblem
 Body: Muss in Jira gelöst werden.
 Language: de
@@ -120,8 +260,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Post-Update Concerns: MySQL 8.0.30 Database
 Body: Greetings Support Team, 
 
@@ -136,8 +290,22 @@ Business type: IT Consulting Firm
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitação de Mudança de Fluxos de Trabalho
 Body: Caro Time de Suporte, Estamos fazendo a transição para um novo método de gerenciamento de projetos e precisamos que nossos fluxos de trabalho no Jira Software 8.20 sejam reorganizados. Por favor, nos ajude o mais rápido possível. Obrigado, <name> <acc_num>
 Language: pt
@@ -145,8 +313,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringende Unterstützung für Dell XPS 13 9310 erforderlich
 Body: Sehr geehrter Kundenservice, ich habe kürzlich einen Dell XPS 13 9310 im Tech Online Store gekauft und habe kontinuierliche WLAN-Disconnect-Probleme. Das ist äußerst störend, da ich ein Vielnutzer bin. Könnten Sie mich bitte schnell zu einer Lösung führen oder temporäre Anschlussoptionen für dieses Problem bereitstellen? Danke. Mit freundlichen Grüßen, <name>
 Language: de
@@ -154,8 +336,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistência Urgente Necessária para AWS
 Body: Caro time de suporte de Serviços de TI,
 
@@ -172,8 +368,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Asistencia con errores de facturación
 Body: Estimado Soporte al Cliente, he notado errores de facturación en mis facturas del servicio de consultoría de TI. ¿Podrían verificar y corregir los cargos? Mi número de cuenta es <acc_num>. Espero su asistencia. Atentamente, <name>.
 Language: es
@@ -181,8 +391,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problema de tiempo de inactividad de la base de datos MySQL 8.0.30
 Body: Nuestra base de datos principal de clientes, que ejecuta MySQL 8.0.30, está actualmente fuera de servicio. Esto ha provocado problemas significativos de disponibilidad que afectan a varios de nuestros servicios y operaciones. Necesitamos soporte urgente para resolver este asunto rápidamente.
 Language: es
@@ -190,8 +414,22 @@ Business type: IT Consulting Firm
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Consulta de Error de Facturación
 Body: Estimado Servicio al Cliente, he notado un sobregiro en mi factura reciente por la suscripción de IntelliJ IDEA 2024.1. Por favor, proporcione una explicación detallada y corrija este error. Mi número de cuenta es <acc_num>. Gracias por su ayuda. Saludos, <name>
 Language: es
@@ -199,8 +437,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problema com Dell XPS 13 9310
 Body: Caro Suporte da Loja Online Tech,
 
@@ -215,8 +467,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problème de qualité d'impression couleur
 Body: Cher service client,
 
@@ -229,8 +495,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent: Immediate Assistance Needed for Payroll Application Failure
 Body: Dear IT Consulting Firm Customer Support, Our HR reports that our primary payroll application has failed during processing. We urgently require your assistance to restore its operation. The affected service is the IT Consulting Service provided by your firm. Please get back to us as soon as possible. For any further information, please contact <name> at <tel_num>.
 Language: en
@@ -238,8 +518,22 @@ Business type: IT Consulting Firm
 
 Answer:",Human Resources
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Issue Changing Status in Jira Software Project
 Body: Dear Customer Support Team, 
 
@@ -254,8 +548,22 @@ Business type: Software Development Company
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problème avec le Dell XPS 13 9310
 Body: L'écran devient noir par intermittence. Besoin de dépannage pour une cause matérielle ou logicielle.
 Language: fr
@@ -263,8 +571,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Déploiement urgent de serveurs pendant la panne AWS
 Body: Cher Service Client,
 
@@ -278,8 +600,22 @@ Business type: IT Services
 
 Answer:",Service Outages and Maintenance
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringendes Problem: Adobe Photoshop 2024 stürzt beim Start ab
 Body: Sehr geehrtes Support-Team,
 
@@ -297,8 +633,22 @@ Business type: IT Services
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Crash fréquents sur macOS avec Adobe Photoshop 2024
 Body: Bonjour Service Client, je rencontre des crashs fréquents sur macOS lorsque j'essaie d'appliquer des effets de calque dans Adobe Photoshop 2024. Ce problème gêne gravement mon travail de design. Pourriez-vous s'il vous plaît fournir une assistance pour résoudre ce problème rapidement ? Merci, <name>. Contact : <tel_num>.
 Language: fr
@@ -306,8 +656,22 @@ Business type: IT Services
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Probleme mit der Touchscreen-Empfindlichkeit beim Surface Pro 7
 Body: Sehr geehrter Kunde des Tech Online Store,
 
@@ -320,8 +684,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent Configuration Change
 Body: Dear IT Services Customer Support, We urgently need to change the server configuration and update our system in the ongoing IT solutions consulting projects. This is of high priority due to urgent requirements. The product affected is IT Consulting Service. Thank you, <name>.
 Language: en
@@ -329,8 +707,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Consulta de compatibilidad
 Body: Estimado servicio de atención al cliente,
 
@@ -343,8 +735,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problèmes d'appel Zoom
 Body: Cher service client,
 
@@ -360,8 +766,22 @@ Business type: IT Services
 
 Answer:",Human Resources
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: MacBook Air M1 experiencing overheating issues during extended use
 Body: Dear Tech Online Store support team, I have recently purchased a MacBook Air M1 and am experiencing overheating issues during long periods of use. Additionally, I have noticed significant power consumption spikes which affect battery life. This started happening a few weeks after my purchase. Please advise if this issue can be resolved remotely or if I need to return the product for inspection. Looking forward to your assistance. Regards, <name>
 Language: en
@@ -369,8 +789,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Screen Flickering Issue
 Body: Dear Customer Support, I am experiencing screen flickering on my LG OLED C1, particularly affecting HDR content. This severely impacts viewing quality. Could you assist with troubleshooting or provide potential solutions? Thank you for your prompt attention. Sincerely, <name>
 Language: en
@@ -378,8 +812,22 @@ Business type: Tech Online Store
 
 Answer:",Sales and Pre-Sales
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema de facturación
 Body: Estimado servicio al cliente, encontré un problema de facturación mientras compraba una nueva suscripción a Adobe Photoshop 2024 a través de su portal de pago en línea. Mi cuenta fue cargada incorrectamente. Por favor, ayúdame a rectificar este problema. Puedes contactarme al <tel_num>. Saludos cordiales, <name>
 Language: es
@@ -387,8 +835,22 @@ Business type: Software Development Company
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Printer Connection and Duplex Issues
 Body: Hi, I am experiencing issues with my Canon PIXMA MG3620. It fails to connect wirelessly and displays inconsistent duplex printing. Please provide a solution for these problems. Thank you, <name>.
 Language: en
@@ -396,8 +858,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringende Unterstützung erforderlich: Jira-Softwareprobleme
 Body: Sehr geehrter Kundenservice, 
 
@@ -413,8 +889,22 @@ Business type: IT Consulting Firm
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Échange demandé pour un ordinateur portable défectueux
 Body: Cher support client,
 
@@ -427,8 +917,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Druckeranschluss- und Duplexprobleme
 Body: Hallo, ich habe Probleme mit meinem Canon PIXMA MG3620. Es funktioniert nicht drahtlos und zeigt inkonsistentes Duplex-Drucken an. Bitte geben Sie eine Lösung für diese Probleme an. Vielen Dank, <name>.
 Language: de
@@ -436,8 +940,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problème de scintillement d'écran signalé à plusieurs reprises
 Body: Cher support client, Je vous écris pour signaler des problèmes de scintillement d'écran répétés avec ma Microsoft Surface Pro 7 récemment achetée. Malgré plusieurs étapes de dépannage, le problème persiste. Pourriez-vous s'il vous plaît me guider sur la façon de procéder pour la réparation ou le remplacement ? Votre aide pour résoudre ce problème serait grandement appréciée. Merci, <name> Email : <email> Téléphone : <tel_num>
 Language: fr
@@ -445,8 +963,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance nécessaire pour un problème d'installation de mise à jour de Windows 10
 Body: Bonjour équipe de support du Tech Online Store, je rencontre des problèmes lors de l'installation des mises à jour de Windows 10 sur ma Microsoft Surface Pro 7. Le processus d'installation échoue à chaque fois, et j'ai essayé plusieurs méthodes pour résoudre le problème sans succès. Pourriez-vous s'il vous plaît fournir de l'aide pour résoudre ce problème ? Mon numéro de compte est <acc_num>. Vous pouvez me contacter au <tel_num> pour plus de détails. Merci pour votre soutien. Cordialement, <name>
 Language: fr
@@ -454,8 +986,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Immediate Help Needed: Netgear Switch GS108 Issue
 Body: Dear Tech Online Store Support Team,
 
@@ -470,8 +1016,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Abonnementfehler
 Body: In der vergangenen Woche konnte ich nicht auf meine E-Mails und Excel zugreifen.
 Language: de
@@ -479,8 +1039,22 @@ Business type: Software Development Company
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Urgente Requise
 Body: Cher Support Client, Mon écran tactile de Microsoft Surface Pro 7 ne répond pas et l'appareil plante fréquemment. J'ai besoin d'un support technique immédiat pour résoudre ces problèmes. Mon nom est <name>, le numéro de contact est <tel_num>. Merci. Cordialement, <name>.
 Language: fr
@@ -488,8 +1062,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Subscription Error Issue
 Body: Unable to access email and Excel for the past week.
 Language: en
@@ -497,8 +1085,22 @@ Business type: Software Development Company
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent: Repeated Cisco Router ISR4331 Reboots
 Body: Dear Customer Support,
 
@@ -513,8 +1115,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problemas de Login Durante a Apresentação de Pré-vendas
 Body: Caro Time de Suporte ao Cliente,
 
@@ -533,8 +1149,22 @@ Business type: Software Development Company
 
 Answer:",Sales and Pre-Sales
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problema con los tiempos de arranque lentos en MacBook Air M1
 Body: Estimado Soporte al Cliente,
 
@@ -549,8 +1179,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Needed for Microsoft Office 365 Setup
 Body: Dear Support Team, I am requesting help setting up email accounts and shared folders using Microsoft Office 365 on a new domain. Please provide guidance to complete this process successfully. Thank you. Sincerely, <name>
 Language: en
@@ -558,8 +1202,22 @@ Business type: Software Development Company
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringend: Router-Fehlerbehebung erforderlich
 Body: Sehr geehrter Kunde des Tech Online Stores, 
 
@@ -572,8 +1230,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringend: Wiederholte Neustarts des Cisco Routers ISR4331
 Body: Sehr geehrter Kundenservice,
 
@@ -587,8 +1259,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitação de Configuração de Novo Servidor de Email
 Body: Caro Time de Suporte de Serviços de TI,
 
@@ -603,8 +1289,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Required for Persistent Paper Jam Issues with Canon Printer
 Body: Dear Customer Support,
 
@@ -620,8 +1320,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Critical Outage Affecting AWS
 Body: Dear Customer Support,
 
@@ -637,8 +1351,22 @@ Business type: IT Services
 
 Answer:",Service Outages and Maintenance
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema con Zoom 5.11.0 durante el seminario web
 Body: Estimado Soporte, Durante nuestro reciente seminario web utilizando Zoom 5.11.0, los asistentes experimentaron cortes de audio repetidos y problemas de conectividad. Por favor, guíenos sobre cómo resolver este asunto urgente. Gracias, <name>
 Language: es
@@ -646,8 +1374,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Issue with Microsoft Office 365: Excel
 Body: Dear Tech Online Store Customer Support, I am writing to report intermittent crashes occurring in Microsoft Excel when opening large spreadsheets within the Office 365 package. My experience has been significantly impacted as the crashes are unpredictable. I request technical assistance in resolving this issue at the earliest. Please find my details below for further reference: Name: <name> Phone Number: <tel_num> Account Number: <acc_num> Thank you. Best Regards, <name>
 Language: en
@@ -655,8 +1397,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringend: Router-Fehlerbehebung benötigt ASAP
 Body: Sehr geehrter Kunde von Tech Online Store, 
 
@@ -669,8 +1425,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problem mit Dell XPS 13 9310 nach dem Update
 Body: Sehr geehrter Kunde des Tech Online Stores,
 
@@ -683,8 +1453,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Need Assistance with Deploying New Microservice
 Body: Dear IT Services Support Team,
 
@@ -697,8 +1481,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Doppelte Abrechnung
 Body: Hallo Kundenservice,
 
@@ -711,8 +1509,22 @@ Business type: Tech Online Store
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent AWS Assistance Needed
 Body: Dear IT Services Support Team,
 
@@ -729,8 +1541,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problema de alimentación de Dell XPS
 Body: Hola, servicio de atención al cliente de Tech Online Store,
 
@@ -743,8 +1569,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Request for Updating Billing Integration and Optimizing Workflow
 Body: Dear IT Services Support Team,
 
@@ -760,8 +1600,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Request for Exchange of Canon PIXMA MG3620
 Body: Hello, I'm experiencing connectivity issues with my Canon PIXMA MG3620 while attempting wireless printing. I would like to request a return or exchange of this unit. Please assist me with the process. Thank you.
 Language: en
@@ -769,8 +1623,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Austausch Anfrage für Canon PIXMA MG3620
 Body: Hallo Tech Online Store, ich habe kürzlich einen Canon PIXMA MG3620 gekauft, aber er kann sich nicht mit meinem Wi-Fi verbinden. Ich möchte um einen Austausch bitten, da die Fehlerbehebungsmaßnahmen das Problem nicht gelöst haben. Meine Bestellnummer ist <order_num>. Vielen Dank.
 Language: de
@@ -778,8 +1646,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problemas de inicio de sesión durante la presentación previa a la venta
 Body: Estimado equipo de soporte al cliente,
 
@@ -798,8 +1680,22 @@ Business type: Software Development Company
 
 Answer:",Sales and Pre-Sales
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Zahlungssystemfehler
 Body: Sehr geehrter IT-Servicedienst, ich kann meine Kreditkartendaten für mein laufendes AWS-Abonnement aufgrund eines Zahlungssystemfehlers nicht aktualisieren. Könnten Sie mir bitte helfen, dieses Problem zu lösen? Das betroffene Produkt ist der AWS-Management-Service. Meine Kontonummer ist <acc_num>. Vielen Dank, <name>.
 Language: de
@@ -807,8 +1703,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema de Error de Suscripción
 Body: No se puede acceder al correo electrónico y Excel durante la última semana.
 Language: es
@@ -816,8 +1726,22 @@ Business type: Software Development Company
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Needed for Screen Flickering Issue
 Body: Dear IT Services Support,
 
@@ -829,8 +1753,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Smart TV Screen Flicker
 Body: Customer support needed for Samsung QLED QN90A flickering issue.
 Language: en
@@ -838,8 +1776,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dell XPS 13 9310 : Problèmes de touchpad et surchauffe
 Body: Cher support client, je possède un Dell XPS 13 9310 et rencontre des problèmes de touchpad et de surchauffe depuis une récente mise à jour du système. Ces problèmes affectent considérablement mon flux de travail. Pourriez-vous me fournir des conseils ou une solution ? Votre aide pour résoudre ce problème serait grandement appréciée. Merci. Sincèrement, <name>
 Language: fr
@@ -847,8 +1799,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problem mit dem Surface Pro 7-Touchscreen
 Body: Sehr geehrter Kundensupport, ich habe Empfindlichkeitsprobleme mit dem Touchscreen meines Microsoft Surface Pro 7, was die Nutzung des Geräts erschwert. Können Sie mir mit einer Lösung helfen? Danke, <name>
 Language: de
@@ -856,8 +1822,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Request for New Email Server Setup
 Body: Dear IT Services Support Team,
 
@@ -872,8 +1852,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Anfrage zur Speicheraufrüstung
 Body: Ich benötige eine Speicheraufrüstungen für eine höhere Leistung
 Language: de
@@ -881,8 +1875,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema de arranque del Dell XPS 13 9310
 Body: {""name"" ha informado que su Dell XPS 13 9310 ha dejado de arrancar y muestra un error de pantalla azul tras una actualización de Windows 10. El problema parece crítico y necesita atención inmediata. ¿Podrías ayudar a resolver este asunto lo antes posible? Gracias por tu apoyo. Contacto en <tel_num> o por correo electrónico para más detalles.
 Language: es
@@ -890,8 +1898,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitação de Atualização da Integração de Faturamento e Otimização do Fluxo de Trabalho
 Body: Caro time de Suporte de Serviços de TI,
 
@@ -907,8 +1929,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: MacBook Air M1 com defeito
 Body: Prezado Suporte ao Cliente,
 
@@ -921,8 +1957,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema de impresión inalámbrica
 Body: Estimado Tech Online Store, estoy teniendo un problema con mi impresora HP DeskJet 3755. Muestra un error de conexión al intentar conectarse a mi red Wi-Fi. Por favor, ayúdame a resolver este problema. Saludos, <name>.
 Language: es
@@ -930,8 +1980,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitação para Devolução de MacBook Air Defeituoso
 Body: Olá, eu comprei um MacBook Air M1 na sua loja e encontrei um defeito no touchpad da máquina. Por favor, me ajude com o processo de devolução. Meu número do pedido é <acc_num>. Obrigado, <name>, <tel_num>.
 Language: pt
@@ -939,8 +2003,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Surface Pro 7 Problem
 Body: Sehr geehrter Kundenservice, ich habe Probleme mit der Reaktionsfähigkeit des Touchscreens meines 2-in-1 Microsoft Surface Pro 7 Geräts. Bitte beraten Sie mich.
 Language: de
@@ -948,8 +2026,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Anfrage zur Monitor-Kompatibilität des Surface Pro 7
 Body: Sehr geehrter Kundenservice,
 
@@ -962,8 +2054,22 @@ Business type: IT Services
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problèmes de performance critiques avec le Dell XPS 13 9310
 Body: Cher service client, mon ordinateur portable Dell XPS 13 9310 rencontre des problèmes de performance critiques et plante fréquemment malgré une mémoire et un espace de stockage suffisants. Veuillez m'aider à résoudre ce problème dès que possible. Merci, <name>.
 Language: fr
@@ -971,8 +2077,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema com o Trackpad do Dell XPS 13 9310 que não responde
 Body: Caro Suporte ao Cliente da Tech Online Store,
 
@@ -985,8 +2105,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Wireless Printing Issue
 Body: Dear Tech Online Store, I'm experiencing an issue with my HP DeskJet 3755 printer. It displays a connection error when attempting to connect to my Wi-Fi network. Please assist me in resolving this problem. Best, <name>.
 Language: en
@@ -994,8 +2128,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Asistencia Inmediata Requerida: Problemas con Jira Software
 Body: Estimado Soporte al Cliente,
 
@@ -1011,8 +2159,22 @@ Business type: IT Consulting Firm
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problemas frecuentes de VPN con Lenovo XPS 13
 Body: Estimado soporte de Tech Online Store,
 
@@ -1027,8 +2189,22 @@ Business type: Tech Online Store
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Syntax Highlighting Problem
 Body: Sehr geehrtes Support-Team, ich habe ein Problem mit der Syntax-Hervorhebung für Python-Dateien nach dem neuesten Update von Visual Studio Code 1.70. Könnten Sie bitte bei der Fehlersuche dieses Problems helfen? Vielen Dank für Ihre Unterstützung. Mit freundlichen Grüßen, <name>
 Language: de
@@ -1036,8 +2212,22 @@ Business type: Software Development Company
 
 Answer:",General Inquiry
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitud Urgente del Cliente: Actualización de Jira Software 8.20
 Body: Estimado Equipo de Soporte al Cliente, Nuestro cliente, <name>, ha solicitado urgentemente que actualicemos nuestra herramienta de gestión de proyectos a Jira Software 8.20. Requieren esta actualización para acceder a las mejoras en las funciones del sistema de tickets que se proporcionan en esta versión. El producto actualmente afectado es Jira Software utilizado para la gestión de proyectos. Por favor, prioricen esta solicitud y ayúdennos con los pasos necesarios para la actualización del software. Si necesitan más detalles o tienen alguna pregunta, no duden en contactarme directamente al <tel_num>. Gracias por su pronta atención a este asunto. Saludos cordiales, <name>.
 Language: es
@@ -1045,8 +2235,22 @@ Business type: Software Development Company
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problemas com Chamadas no Zoom
 Body: Caro Suporte ao Cliente,
 
@@ -1062,8 +2266,22 @@ Business type: IT Services
 
 Answer:",Human Resources
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Needed for Project
 Body: Dear support team, I need help setting up realization diagrams for our planned project directory consolidation. Utilizing IT Consulting Service for this task. Thank you. Sincerely, <name>.
 Language: en
@@ -1071,8 +2289,22 @@ Business type: IT Consulting Firm
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Problema de apagado repentino
 Body: Estimado soporte de la tienda en línea Tech, estoy experimentando problemas de apagado repentino con mi Dell XPS 13 9310. Este incidente necesita una resolución urgente. Por favor, aconsejen sobre los próximos pasos. Gracias, <name>
 Language: es
@@ -1080,8 +2312,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Ticket Attachment Issue
 Body: Needs resolution in Jira.
 Language: en
@@ -1089,8 +2335,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Drucker-Verbindungs- und Duplexprobleme
 Body: Hallo, ich habe Probleme mit meinem Canon PIXMA MG3620. Er lässt sich nicht drahtlos verbinden und zeigt inkonsistentes Duplexdrucken an. Bitte geben Sie eine Lösung für diese Probleme. Danke, <name>.
 Language: de
@@ -1098,8 +2358,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema com Anexo do Ticket
 Body: Precisa de resolução no Jira.
 Language: pt
@@ -1107,8 +2381,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Cobrança excessiva na assinatura anual do Microsoft Office 365
 Body: Caro Suporte ao Cliente da Tech Online Store,
 
@@ -1124,8 +2412,22 @@ Business type: Tech Online Store
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Austausch für fehlerhaften Laptop angefordert
 Body: Sehr geehrter Kundenservice,
 
@@ -1138,8 +2440,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Erreur du système de paiement
 Body: Chère équipe du support des services informatiques, je ne peux pas mettre à jour les détails de ma carte de crédit pour mon abonnement AWS en cours en raison d'une erreur du système de paiement. Pourriez-vous m'aider à résoudre ce problème ? Le produit concerné est le service de gestion AWS. Mon numéro de compte est <acc_num>. Merci, <name>.
 Language: fr
@@ -1147,8 +2463,22 @@ Business type: IT Services
 
 Answer:",Billing and Payments
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Conexión inalámbrica defectuosa de Canon PIXMA MG3620
 Body: Estimado soporte de Tech Online Store,
 
@@ -1165,8 +2495,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Necesito ayuda con el despliegue de un nuevo microservicio
 Body: Estimado equipo de soporte de servicios de TI,
 
@@ -1179,8 +2523,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent Issue: Jira Software 8.20 Failing to Initialize
 Body: Hello Customer Support Team,
 
@@ -1193,8 +2551,22 @@ Business type: Software Development Company
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Ladeverzögerungsproblem in Jira Software
 Body: Sehr geehrter Kundenservice,
 
@@ -1210,8 +2582,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Issue with Dell XPS 13 9310 Trackpad Unresponsive
 Body: Dear Tech Online Store Customer Support,
 
@@ -1224,8 +2610,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Implantação Urgente de Servidores Durante a Queda do AWS
 Body: Prezado Suporte ao Cliente,
 
@@ -1239,8 +2639,22 @@ Business type: IT Services
 
 Answer:",Service Outages and Maintenance
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitud de Devolución: Función HDR Defectuosa del Samsung QN90A
 Body: Estimado Soporte de Tech Online Store,
 
@@ -1255,8 +2669,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringende Unterstützung benötigt für Zugangsproblem mit Jira Software
 Body: Sehr geehrter Kundenservice, Benutzer können nach dem neuesten Update nicht auf die Projektmanagement-Funktionen in Jira Software zugreifen. Wir benötigen dringend Ihre Hilfe, um dieses Problem zu lösen. Wir verwenden die Jira Software Version 8.20. Bitte behandeln Sie dieses Anliegen so schnell wie möglich, um Unterbrechungen zu minimieren. Vielen Dank, <name>
 Language: de
@@ -1264,8 +2692,22 @@ Business type: Software Development Company
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Warranty Replacement Request
 Body: Dear Customer Support Team at Tech Online Store,
 
@@ -1281,8 +2723,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Solicitud de actualización de memoria
 Body: Necesito una actualización de memoria para un mejor rendimiento
 Language: es
@@ -1290,8 +2746,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Dringendes EC2-Problem
 Body: Sehr geehrtes IT-Serviceteam, ich habe Probleme mit einer EC2-Instanz, die nicht reagiert. Ich benötige dringend Unterstützung für meine AWS-Management-Service-Umgebung. Bitte melden Sie sich so schnell wie möglich bei mir. Mit freundlichen Grüßen, <name>.
 Language: de
@@ -1299,8 +2769,22 @@ Business type: IT Services
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problème d'écran tactile non responsif sur Surface Pro 7
 Body: Cher Support Client,
 
@@ -1313,8 +2797,22 @@ Business type: IT Services
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Repeated Screen Flickering Issue Reported
 Body: Dear Customer Support, I am writing to report repeated screen flickering issues with my recently purchased Microsoft Surface Pro 7. Despite trying several troubleshooting steps, the problem persists. Could you please guide me on how to proceed for repair or replacement? Your assistance in resolving this matter would be greatly appreciated. Thank you, <name> Email: <email> Phone: <tel_num>
 Language: en
@@ -1322,8 +2820,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Surface Pro 7 Touchscreen Issues
 Body: Dear Customer Support, I am experiencing intermittent touchscreen freezes on my Microsoft Surface Pro 7. This issue is impacting the usability of the device. Could you please assist in resolving this matter? Thank you in advance. Best, <name>
 Language: en
@@ -1331,8 +2843,22 @@ Business type: IT Services
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Problema con la pantalla parpadeante del Dell XPS 13 9310
 Body: Estimado servicio de atención al cliente de Tech Online Store, estoy experimentando un parpadeo intermitente en la pantalla de mi Dell XPS 13 9310. Este problema está causando una gran inconveniencia mientras trabajo. Su pronta asistencia para resolver este asunto sería muy apreciada. Gracias. Saludos, <name>
 Language: es
@@ -1340,8 +2866,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Firmware-Update erforderlich
 Body: Sehr geehrter Kundenservice,
 
@@ -1356,8 +2896,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent : Problème d'arrêt soudain
 Body: Cher support de Tech Online Store, Je rencontre des problèmes d'arrêt soudain avec mon Dell XPS 13 9310. Cet incident nécessite une résolution urgente. Veuillez me conseiller sur les prochaines étapes. Merci, <name>
 Language: fr
@@ -1365,8 +2919,22 @@ Business type: Tech Online Store
 
 Answer:",Product Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Assistance Urgente AWS Nécessaire
 Body: Cher Équipe de Support des Services Informatiques,
 
@@ -1383,8 +2951,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Frequent audio dropouts during video conferences
 Body: Dear IT services support team, I am experiencing frequent audio dropouts during my video conferences despite having stable network conditions. This issue persists specifically with Zoom version 5.11.0. My account number is <acc_num>. Could you please assist in resolving this ongoing problem? Feel free to contact me at any time on <tel_num>. Your urgent attention to this matter would be highly appreciated. Thank you, <name>.
 Language: en
@@ -1392,8 +2974,22 @@ Business type: IT Services
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgent: Screen Flickering Issue with Dell XPS 13 9310
 Body: Dear Customer Support,
 
@@ -1408,8 +3004,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Visual Studio Code Issue
 Body: Dear IT Services Support, I'm experiencing frequent freezing issues with Visual Studio Code 1.70 during code debugging on Windows 10. This affects my productivity significantly. Please assist in resolving this problem at the earliest convenience. Thank you. Regards, <name> <tel_num>
 Language: en
@@ -1417,8 +3027,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Tonproblem Dell XPS
 Body: Problem mit dem Sound, wird als Rücksendung bearbeitet. Innerhalb von 30 Tagen.
 Language: de
@@ -1426,8 +3050,22 @@ Business type: Tech Online Store
 
 Answer:",Returns and Exchanges
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Malfuncionamiento de hardware en Dell XPS 13 9310
 Body: Estimados Servicios de IT, nuestra Dell XPS 13 9310 experimenta ocasional parpadeo de pantalla y fallos intermitentes en la conectividad inalámbrica. Por favor, aconsejen sobre los próximos pasos para resolver estos problemas. Atentamente, <name>, <company name>, <email_address>, <phone_number>. Gracias.
 Language: es
@@ -1435,8 +3073,22 @@ Business type: IT Services
 
 Answer:",IT Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Issue with HP DeskJet 3755 Wireless Function
 Body: Dear Tech Online Store customer support, I cannot connect my HP DeskJet 3755 to mobile devices using the wireless function. Please assist me in resolving this issue. Thank you! Regards, <name>
 Language: en
@@ -1444,8 +3096,22 @@ Business type: Tech Online Store
 
 Answer:",Customer Service
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: problema com Dell XPS 13 9310
 Body: Caro Suporte da Tech Online Store,
 
@@ -1460,8 +3126,22 @@ Business type: Tech Online Store
 
 Answer:",Technical Support
 "You are a support ticket classification assistant.
-Predict the ticket category from the information below.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
 
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
 Subject: Urgente: Mau Funcionamento de Hardware no Dell XPS 13 9310
 Body: Caro Serviços de TI, nosso Dell XPS 13 9310 está apresentando ocasionalmente cintilação na tela e falhas intermitentes de conectividade sem fio. Por favor, aconselhe sobre os próximos passos para resolver esses problemas. Atenciosamente, <name>, <company name>, <email_address>, <phone_number>. Obrigado.
 Language: pt
