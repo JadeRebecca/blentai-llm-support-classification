@@ -1,0 +1,10 @@
+résultat obtenus : 2/3
+
+Commentaire :
+Ce n'est pas un bug. Le contrôle porte seulement sur 3 exemples du train, donc il n'a pas de valeur statistique forte. 
+Le 2e ticket est ambigu : son contenu peut faire penser à "Customer Service", même si le label attendu dans le dataset est "Returns and Exchanges". 
+En plus, "Customer Service" est plus fréquent que "Returns and Exchanges" dans les données d'entraînement, ce qui peut biaiser ponctuellement la génération.
+
+You are a support ticket classification assistant.\nPredict the ticket category from the information below.\n\nSubje..  ans = Product Support pred = Product Support pred
+You are a support ticket classification assistant.\nPredict the ticket category from the information below.\n\nSubje.   ans =  Returns and Exchanges	pred = Customer Service
+You are a support ticket classification assistant.\nPredict the ticket category from the information below.\n\nSubje..  ans =  Returns and Exchanges	pred = Returns and Exchanges
