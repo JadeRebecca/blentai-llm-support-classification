@@ -59,6 +59,21 @@ Tableau des essais :
 | 1 | 2026-05-23 | Prompt initial sans liste fermée de labels | 17.37% | 50.42% | +33.05 pts | Non |
 | 2 | 2026-05-23 | Prompt contraint avec liste fermée de labels via `data/processed/labels.json` | 12.00% | 52.95% | +40.96 pts | Non |
 
+Essai 3 :
+Date = 2026-05-27
+Changement principal = passage a un classifieur supervise `AutoModelForSequenceClassification` avec LoRA et loss ponderee
+Resultats observes dans le notebook actuel :
+- Configuration = `use_class_weights = True`
+- Personalized classifier weighted F1-score = 87.49%
+- Personalized classifier macro F1-score = 91.75%
+- Base classifier weighted F1-score = a mesurer apres rerun de la nouvelle cellule de baseline
+- Base classifier macro F1-score = a mesurer apres rerun de la nouvelle cellule de baseline
+- Cible 0.92 atteinte = Non sur le weighted F1 connu a ce stade
+
+Note :
+Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.
+Le notebook permet maintenant de basculer facilement entre loss ponderee (`use_class_weights = True`) et loss non ponderee (`use_class_weights = False`) pour mesurer l'impact sur le `weighted F1`.
+
 Lecture rapide :
 L'essai 2 est meilleur que l'essai 1 sur le modèle personnalisé : 52.95% contre 50.42%.
 La contrainte de sortie semble surtout aider après fine-tuning, car le score du modèle de base baisse de 17.37% à 12.00%.

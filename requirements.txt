@@ -1,10 +1,10 @@
 pandas
+numpy
 scikit-learn
 torch
 transformers
 datasets
 peft
-trl
 accelerate
 jupyter
 ipykernel
