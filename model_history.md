@@ -68,3 +68,10 @@ Pourquoi ce choix :
 - Même famille que `Qwen/Qwen2.5-1.5B-Instruct`, donc compatibilité plus probable
 - Plus grande capacité que le modèle de référence
 - Taille plus raisonnable que `Qwen/Qwen2.5-7B-Instruct` dans l'environnement actuel
+
+Résultats marquants :
+- Meilleur résultat observé jusqu'ici : `weighted F1 = 87.54%` et `macro F1 = 93.32%` sur l'essai 13
+
+Commentaire :
+- Ce modèle devient la meilleure base actuelle du projet
+- Les erreurs restantes se concentrent surtout sur les confusions entre `Product Support`, `Technical Support` et `IT Support`

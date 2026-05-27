@@ -284,7 +284,7 @@ Pourquoi tester maintenant `Qwen/Qwen2.5-3B-Instruct` :
 Essai 13 :
 Date = 2026-05-27
 Changement principal = passage a un modele intermediaire de la meme famille pour tester un gain de capacite avec un cout memoire plus raisonnable
-Configuration preparee pour le prochain run :
+Resultats observes dans le notebook actuel :
 - `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
 - prompt actif = prompt `v1` explicite
 - `use_class_weights = True`
@@ -292,11 +292,44 @@ Configuration preparee pour le prochain run :
 - `num_train_epochs = 8`
 - `weight_decay = 0.01`
 - historique du modele = `model_history.md`
+- Base classifier weighted F1-score = 3.29%
+- Base classifier macro F1-score = 2.08%
+- Personalized classifier weighted F1-score = 87.54%
+- Personalized classifier macro F1-score = 93.32%
+- Ecart vs essai 10 = +0.87 pts en weighted F1 et +0.87 pts en macro F1 pour le personalized classifier
+- Cible 0.92 atteinte = Non
+Conclusion :
+- Cet essai devient le meilleur resultat observe jusqu'ici.
+- Le gain est reel mais encore insuffisant pour atteindre `92%` en `weighted F1`.
+
+Ce que montre l'analyse d'erreurs :
+- Les principales erreurs concernent les classes techniques les plus frequentes, surtout `Product Support` vs `Technical Support`, puis `Technical Support` vs `IT Support`.
+- Ces confusions expliquent bien pourquoi le `macro F1` est deja tres haut alors que le `weighted F1` reste sous la cible : ce sont des classes a fort support qui coutent cher en score pondere.
+- Les autres classes sont tres bien separees, souvent avec des rappels et precisions parfaits.
+- La prochaine amelioration doit donc cibler ces frontieres de decision entre classes techniques proches, plutot qu'un changement global de configuration.
+
+Pourquoi tester maintenant un prompt guide sur les classes techniques :
+- L'analyse d'erreurs montre que les pertes de `weighted F1` viennent surtout de confusions entre `Product Support`, `Technical Support` et `IT Support`.
+- Le reste des classes est deja bien separé, donc un changement global de configuration risque d'avoir moins d'effet qu'une aide locale sur ces frontieres de decision.
+- L'idee est donc de garder la meilleure base actuelle et d'ajouter dans le prompt une courte clarification semantique pour ces trois labels.
+- Cet essai reste peu couteux a lancer et cible directement le principal point faible observe.
+
+Essai 14 :
+Date = 2026-05-27
+Changement principal = ajout d'une guidance explicite dans le prompt pour reduire les confusions entre classes techniques proches
+Configuration preparee pour le prochain run :
+- `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
+- prompt actif = prompt `v3` avec guidance sur `IT Support`, `Technical Support` et `Product Support`
+- `use_class_weights = True`
+- `learning_rate = 2e-4`
+- `num_train_epochs = 8`
+- `weight_decay = 0.01`
+- historique du prompt = `prompt_history.md`
 Resultats :
 - A completer apres execution du notebook
 Conclusion attendue :
-- Cet essai verifie si un modele intermediaire permet de gagner en performance sans reproduire les problemes de la variante `7B`.
-- S'il n'apporte pas de gain net, l'analyse d'erreurs redeviendra la meilleure priorite.
+- Cet essai verifie si une clarification locale des classes techniques suffit a gagner les derniers points sur le `weighted F1`.
+- S'il n'apporte pas de gain net, il faudra privilegier soit un travail sur les donnees, soit une analyse d'erreurs encore plus fine.
 
 Note :
 Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.
