@@ -405,7 +405,7 @@ Conclusion attendue :
 Essai 18 :
 Date = 2026-06-03
 Changement principal = ajustement d'optimisation avec prompt v4 et learning rate plus faible
-Configuration preparee pour le prochain run :
+Configuration testee :
 - `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
 - prompt actif = prompt `v4` avec guidance sur `Product Support`, `Technical Support`, `Customer Service`, `IT Support` et `Billing and Payments`
 - `use_class_weights = True`
@@ -414,10 +414,23 @@ Configuration preparee pour le prochain run :
 - `weight_decay = 0.01`
 - historique du prompt = `prompt_history.md`
 Resultats :
-- A completer apres execution du notebook
+- Base classifier weighted F1-score = 3.29%
+- Base classifier macro F1-score = 2.08%
+- Personalized classifier weighted F1-score = 90.86%
+- Personalized classifier macro F1-score = 94.70%
+- Ecart vs essai 15 = +3.50 pts en weighted F1 et +4.49 pts en macro F1 pour le personalized classifier
+- Cible 0.92 atteinte = Non
 Conclusion attendue :
-- Cet essai teste si un apprentissage plus lent mais plus long peut trouver un meilleur optimum que l'essai 15.
-- S'il ne depasse pas l'essai 15, il faudra considerer que le plafond du pipeline est probablement atteint dans ce cadre.
+- Cet essai montre qu'un apprentissage plus lent mais plus long peut mieux optimiser le modele.
+- Le score devient tres proche de la cible, mais reste encore sous 92% en weighted F1.
+- La prochaine etape utile est soit un rerun de confirmation, soit une analyse d'erreurs pour comprendre si ce gain est stable.
+
+Ce que montre l'analyse d'erreurs :
+- Les erreurs restantes sont maintenant peu nombreuses et concentrees.
+- Les confusions dominantes sont `Customer Service -> Technical Support` puis `Technical Support -> IT Support`.
+- `Product Support` est mieux maitrise qu'avant, avec un rappel et une precision proches de 0.92.
+- `Billing and Payments`, `Sales and Pre-Sales`, `Service Outages and Maintenance` et `Human Resources` sont quasi parfaites.
+- Le plafond restant vient donc surtout de quelques confusions entre classes techniques et support client general.
 
 Note :
 Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.

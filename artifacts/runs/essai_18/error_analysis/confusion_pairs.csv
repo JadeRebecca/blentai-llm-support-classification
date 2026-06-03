@@ -1,0 +1,8 @@
+answer,prediction,count
+Customer Service,Technical Support,3
+Technical Support,IT Support,3
+IT Support,Technical Support,1
+Product Support,Customer Service,1
+Product Support,Technical Support,1
+Returns and Exchanges,Customer Service,1
+Technical Support,Product Support,1
