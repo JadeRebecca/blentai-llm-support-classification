@@ -1,0 +1,385 @@
+prompt,answer,prediction
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Issue with Dell XPS 13 9310
+Body: Screen goes black intermittently. Need troubleshooting for hardware or software cause.
+Language: en
+Business type: Tech Online Store
+
+Answer:",Product Support,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Anfrage zur Leistungsoptimierung für das Ticketsystem
+Body: Sehr geehrter Kundensupport,<br><br>Wir benötigen eine Leistungsoptimierung für unser bestehendes Ticketsystem sowie Unterstützung bei einer effizienten Lastverteilung auf dem Server. Die Probleme beeinträchtigen unseren IT-Consulting-Service und erfordern dringende Aufmerksamkeit.<br><br>Vielen Dank für Ihre Unterstützung.<br><br>Mit freundlichen Grüßen,<br><name>
+Language: de
+Business type: IT Services
+
+Answer:",Technical Support,IT Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Problème de qualité d'impression couleur
+Body: Cher service client,
+
+Je rencontre des problèmes constants avec la qualité d'impression couleur de mon HP DeskJet 3755. Les impressions sont en dessous des normes attendues et affectent négativement mon travail. Veuillez m'aider à résoudre ce problème dès que possible.
+
+Cordialement,
+<name>
+Language: fr
+Business type: IT Services
+
+Answer:",IT Support,Customer Service
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Problème avec le Dell XPS 13 9310
+Body: L'écran devient noir par intermittence. Besoin de dépannage pour une cause matérielle ou logicielle.
+Language: fr
+Business type: Tech Online Store
+
+Answer:",Product Support,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Problème de scintillement d'écran signalé à plusieurs reprises
+Body: Cher support client, Je vous écris pour signaler des problèmes de scintillement d'écran répétés avec ma Microsoft Surface Pro 7 récemment achetée. Malgré plusieurs étapes de dépannage, le problème persiste. Pourriez-vous s'il vous plaît me guider sur la façon de procéder pour la réparation ou le remplacement ? Votre aide pour résoudre ce problème serait grandement appréciée. Merci, <name> Email : <email> Téléphone : <tel_num>
+Language: fr
+Business type: Tech Online Store
+
+Answer:",Product Support,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Abonnementfehler
+Body: In der vergangenen Woche konnte ich nicht auf meine E-Mails und Excel zugreifen.
+Language: de
+Business type: Software Development Company
+
+Answer:",Technical Support,Billing and Payments
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Dringend: Wiederholte Neustarts des Cisco Routers ISR4331
+Body: Sehr geehrter Kundenservice,
+
+Unser Firmennetzwerk hat mit unerwarteten Neustarts unseres Cisco Routers ISR4331 zu kämpfen, was zu erheblichen Störungen und Ausfallzeiten führt. Wir benötigen dringend eine Lösung, da dieses Problem unsere Abläufe beeinträchtigt. Bitte bieten Sie eine zeitnahe Lösung an, um weitere Probleme zu vermeiden.
+
+Mit freundlichen Grüßen,
+<name>
+<acc_num>
+Language: de
+Business type: IT Services
+
+Answer:",Technical Support,IT Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: MacBook Air M1 com defeito
+Body: Prezado Suporte ao Cliente,
+
+Recentemente recebi um MacBook Air M1 defeituoso da sua loja. A tela pisca constantemente e o teclado não funciona. Meu número de conta é <acc_num>. Por favor, informe como proceder com a troca ou reembolso.
+
+Obrigado,
+<name>
+Language: pt
+Business type: Tech Online Store
+
+Answer:",Customer Service,Returns and Exchanges
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Surface Pro 7 Problem
+Body: Sehr geehrter Kundenservice, ich habe Probleme mit der Reaktionsfähigkeit des Touchscreens meines 2-in-1 Microsoft Surface Pro 7 Geräts. Bitte beraten Sie mich.
+Language: de
+Business type: Tech Online Store
+
+Answer:",Technical Support,Product Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Conexión inalámbrica defectuosa de Canon PIXMA MG3620
+Body: Estimado soporte de Tech Online Store,
+
+Recientemente compré una impresora Canon PIXMA MG3620 en su tienda, pero desafortunadamente, he encontrado un problema con su conexión inalámbrica. La impresora se desconecta frecuentemente del Wi-Fi, lo que hace imposible su uso. He intentado varios pasos de solución de problemas, pero sin éxito. ¿Podría ayudarme a procesar un reemplazo o unidad de intercambio?
+
+Mi número de cuenta es <acc_num>. Puede contactarme al <tel_num> si necesita más información.
+
+Gracias por su ayuda.
+
+Atentamente,
+<name>
+Language: es
+Business type: Tech Online Store
+
+Answer:",Returns and Exchanges,Customer Service
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Implantação Urgente de Servidores Durante a Queda do AWS
+Body: Prezado Suporte ao Cliente,
+
+Precisamos da implantação imediata de servidores devido a uma interrupção de serviço de alta prioridade que está impactando nossa infraestrutura AWS. Por favor, trate deste problema com urgência para garantir uma interrupção mínima.
+
+Obrigado,
+
+<name>
+Language: pt
+Business type: IT Services
+
+Answer:",Service Outages and Maintenance,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Warranty Replacement Request
+Body: Dear Customer Support Team at Tech Online Store,
+
+I am contacting you to request a warranty replacement for my Canon PIXMA MG3620, which has stopped printing wirelessly. Despite multiple troubleshooting attempts, I’ve failed to resolve the issue. I would appreciate your assistance with the replacement procedure. This purchase was made using the account <acc_num>.
+
+Thank you for your support.
+
+Sincerely,
+<name>
+<tel_num>
+Language: en
+Business type: Tech Online Store
+
+Answer:",Customer Service,Billing and Payments
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Repeated Screen Flickering Issue Reported
+Body: Dear Customer Support, I am writing to report repeated screen flickering issues with my recently purchased Microsoft Surface Pro 7. Despite trying several troubleshooting steps, the problem persists. Could you please guide me on how to proceed for repair or replacement? Your assistance in resolving this matter would be greatly appreciated. Thank you, <name> Email: <email> Phone: <tel_num>
+Language: en
+Business type: Tech Online Store
+
+Answer:",Product Support,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Surface Pro 7 Touchscreen Issues
+Body: Dear Customer Support, I am experiencing intermittent touchscreen freezes on my Microsoft Surface Pro 7. This issue is impacting the usability of the device. Could you please assist in resolving this matter? Thank you in advance. Best, <name>
+Language: en
+Business type: IT Services
+
+Answer:",Customer Service,Technical Support
+"You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Allowed labels:
+- Billing and Payments
+- Customer Service
+- General Inquiry
+- Human Resources
+- IT Support
+- Product Support
+- Returns and Exchanges
+- Sales and Pre-Sales
+- Service Outages and Maintenance
+- Technical Support
+
+Ticket information:
+Subject: Issue with HP DeskJet 3755 Wireless Function
+Body: Dear Tech Online Store customer support, I cannot connect my HP DeskJet 3755 to mobile devices using the wireless function. Please assist me in resolving this issue. Thank you! Regards, <name>
+Language: en
+Business type: Tech Online Store
+
+Answer:",Customer Service,Technical Support

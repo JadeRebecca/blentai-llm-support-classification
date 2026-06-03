@@ -137,3 +137,47 @@ Commentaire :
 - Ce prompt garde la structure explicite des versions precedentes
 - Il ajoute une separation plus nette entre les classes encore les plus confondues
 - Il cible directement les confusions observees entre `Technical Support`, `Product Support`, `Customer Service`, `IT Support` et `Billing and Payments`
+
+## Prompt v5
+
+Statut :
+- Variante finale ciblee sur les confusions residuelles sans modification des donnees du projet
+- Prompt canonique actuel
+
+Contenu :
+
+```text
+You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Decision rules:
+- Product Support: use when the ticket is about how to use, configure, understand, or get help with a product or service feature.
+- Technical Support: use when the ticket is about bugs, errors, crashes, malfunctions, troubleshooting, or a product/service not working correctly.
+- IT Support: use when the ticket is about access, accounts, permissions, devices, workstations, internal tools, or internal technical issues.
+- Customer Service: use when the ticket is about general customer assistance, orders, returns, exchanges, refunds, account help, or non-technical support requests.
+- Billing and Payments: use when the ticket is about invoices, charges, refunds, payment methods, billing problems, or account balance issues.
+
+If several labels seem possible:
+- prefer Technical Support over Product Support when the main issue is a bug or malfunction.
+- prefer IT Support over Technical Support when the issue is internal access, permissions, or workplace tools.
+- prefer Billing and Payments over Customer Service when money, charge, invoice, or refund is the main topic.
+
+Allowed labels:
+- {label_1}
+- {label_2}
+- ...
+
+Ticket information:
+Subject: {subject}
+Body: {body}
+Language: {language}
+Business type: {business_type}
+
+Answer:
+```
+
+Commentaire :
+- Ce prompt garde la structure explicite des versions precedentes
+- Il ajoute des regles de priorite pour les cas ambigus observes dans les erreurs
+- Il ne depend d'aucune modification du jeu de donnees, ce qui le rend compatible avec le cadre de la formation
