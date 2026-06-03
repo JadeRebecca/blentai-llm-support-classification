@@ -98,3 +98,42 @@ Commentaire :
 - Il ajoute une aide locale uniquement pour les classes techniques qui restent les plus confondues
 - Il a obtenu `weighted F1 = 88.99%` et `macro F1 = 91.99%` sur l'essai 14
 - Il améliore le `weighted F1` par rapport au prompt v1, mais reste sous la cible de `92%`
+
+## Prompt v4
+
+Statut :
+- Variante plus discriminante sur les classes proches observees dans l'analyse d'erreurs
+- Prete pour l'essai suivant apres `Essai 14`
+
+Contenu :
+
+```text
+You are a support ticket classification assistant.
+Choose exactly one support ticket category from the allowed labels below.
+Return only the exact label name and do not add any explanation.
+
+Decision guide for close labels:
+- Product Support: how to use, configure, understand, or get help with a product or service feature.
+- Technical Support: bugs, errors, crashes, malfunctions, troubleshooting, or a product/service not working correctly.
+- Customer Service: general customer assistance, orders, returns, exchanges, refunds, account help, or non-technical support requests.
+- IT Support: access, accounts, permissions, devices, workstations, internal tools, or internal technical issues.
+- Billing and Payments: invoices, charges, refunds, payment methods, billing problems, or account balance issues.
+
+Allowed labels:
+- {label_1}
+- {label_2}
+- ...
+
+Ticket information:
+Subject: {subject}
+Body: {body}
+Language: {language}
+Business type: {business_type}
+
+Answer:
+```
+
+Commentaire :
+- Ce prompt garde la structure explicite des versions precedentes
+- Il ajoute une separation plus nette entre les classes encore les plus confondues
+- Il cible directement les confusions observees entre `Technical Support`, `Product Support`, `Customer Service`, `IT Support` et `Billing and Payments`

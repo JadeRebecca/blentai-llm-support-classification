@@ -1,0 +1,11 @@
+actual,Billing and Payments,Customer Service,General Inquiry,Human Resources,IT Support,Product Support,Returns and Exchanges,Sales and Pre-Sales,Service Outages and Maintenance,Technical Support
+Billing and Payments,9,0,0,0,0,0,0,0,0,0
+Customer Service,0,12,0,0,0,2,1,0,0,2
+General Inquiry,0,0,1,0,0,0,0,0,0,0
+Human Resources,0,0,0,3,0,0,0,0,0,0
+IT Support,0,1,0,0,13,0,0,0,0,1
+Product Support,0,0,0,0,0,16,0,0,0,3
+Returns and Exchanges,0,0,0,0,0,0,8,0,0,0
+Sales and Pre-Sales,0,0,0,0,0,0,0,3,0,0
+Service Outages and Maintenance,0,0,0,0,0,0,0,0,3,0
+Technical Support,0,1,0,0,2,3,0,0,0,36

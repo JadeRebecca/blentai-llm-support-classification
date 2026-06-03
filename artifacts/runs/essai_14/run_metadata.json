@@ -1,0 +1,12 @@
+{
+  "run_id": "20260603_091929",
+  "seed": 42,
+  "base_model_id": "Qwen/Qwen2.5-3B-Instruct",
+  "prompt_version": "v3",
+  "use_class_weights": true,
+  "learning_rate": 0.0002,
+  "num_train_epochs": 8,
+  "weight_decay": 0.01,
+  "train_size": 479,
+  "test_size": 120
+}

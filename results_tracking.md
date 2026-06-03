@@ -328,14 +328,31 @@ Configuration testee :
 Resultats :
 - Base classifier weighted F1-score = 3.29%
 - Base classifier macro F1-score = 2.08%
-- Personalized classifier weighted F1-score = 88.99%
-- Personalized classifier macro F1-score = 91.99%
-- Ecart vs essai 13 = +1.45 pts en weighted F1 et -1.33 pts en macro F1 pour le personalized classifier
+- Personalized classifier weighted F1-score = 86.58%
+- Personalized classifier macro F1-score = 92.39%
+- Ecart vs essai 13 = -0.96 pts en weighted F1 et -0.93 pts en macro F1 pour le personalized classifier
 - Cible 0.92 atteinte = Non
 Conclusion attendue :
-- Cet essai confirme que la guidance ciblee aide bien le `weighted F1`, mais pas assez pour franchir la cible.
-- Le gain sur `weighted F1` valide l'hypothese de depart, tandis que la baisse du `macro F1` suggere un effet plus localise sur les classes techniques.
+- Cet essai montre une variance plus forte entre reruns, mais le `macro F1` reste eleve.
+- Le `weighted F1` reste sous la cible, donc il faut encore cibler les confusions restantes.
 - La prochaine etape la plus utile est une analyse d'erreurs plus fine ou un travail sur les donnees pour traiter les confusions restantes.
+
+Essai 15 :
+Date = 2026-06-03
+Changement principal = passage a un prompt v4 plus discriminant sur les classes encore les plus confondues
+Configuration preparee pour le prochain run :
+- `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
+- prompt actif = prompt `v4` avec guidance sur `Product Support`, `Technical Support`, `Customer Service`, `IT Support` et `Billing and Payments`
+- `use_class_weights = True`
+- `learning_rate = 2e-4`
+- `num_train_epochs = 8`
+- `weight_decay = 0.01`
+- historique du prompt = `prompt_history.md`
+Resultats :
+- A completer apres execution du notebook
+Conclusion attendue :
+- Cet essai teste si une clarification plus large des classes proches permet de gagner les derniers points sur le `weighted F1`.
+- S'il n'apporte pas de gain net, il faudra privilegier soit un travail sur les donnees, soit une strategie de separation plus ciblee des classes confondues.
 
 Note :
 Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.
