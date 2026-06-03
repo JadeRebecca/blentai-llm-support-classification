@@ -102,8 +102,8 @@ Commentaire :
 ## Prompt v4
 
 Statut :
-- Variante plus discriminante sur les classes proches observees dans l'analyse d'erreurs
-- Prete pour l'essai suivant apres `Essai 14`
+- Variante la plus stable et la plus performante observee jusqu'ici
+- Prompt canonique actuel
 
 Contenu :
 
@@ -137,12 +137,13 @@ Commentaire :
 - Ce prompt garde la structure explicite des versions precedentes
 - Il ajoute une separation plus nette entre les classes encore les plus confondues
 - Il cible directement les confusions observees entre `Technical Support`, `Product Support`, `Customer Service`, `IT Support` et `Billing and Payments`
+- C'est le meilleur compromis observe entre `weighted F1` et `macro F1` avant les regles de priorite du prompt v5
 
 ## Prompt v5
 
 Statut :
-- Variante finale ciblee sur les confusions residuelles sans modification des donnees du projet
-- Prompt canonique actuel
+- Variante testee puis non retenue car trop contraignante
+- Retourne au statut de piste experimentale
 
 Contenu :
 
@@ -180,4 +181,4 @@ Answer:
 Commentaire :
 - Ce prompt garde la structure explicite des versions precedentes
 - Il ajoute des regles de priorite pour les cas ambigus observes dans les erreurs
-- Il ne depend d'aucune modification du jeu de donnees, ce qui le rend compatible avec le cadre de la formation
+- Il degrade les performances par rapport au prompt v4 et n'est donc pas retenu comme version canonique

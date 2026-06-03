@@ -360,6 +360,65 @@ Conclusion attendue :
 - La baisse du `macro F1` suggere que la guidance plus large aide certaines confusions tout en degradant davantage d'autres classes.
 - La prochaine etape utile est soit une analyse d'erreurs plus fine sur ce rerun, soit un travail de donnees cible sur les classes qui ont recule.
 
+Essai 16 :
+Date = 2026-06-03
+Changement principal = passage a un prompt v5 avec regles de priorite explicites sur les classes ambigues
+Configuration testee :
+- `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
+- prompt actif = prompt `v5` avec regles de priorite pour `Product Support`, `Technical Support`, `IT Support`, `Customer Service` et `Billing and Payments`
+- `use_class_weights = True`
+- `learning_rate = 2e-4`
+- `num_train_epochs = 8`
+- `weight_decay = 0.01`
+- historique du prompt = `prompt_history.md`
+Resultats :
+- Base classifier weighted F1-score = 3.29%
+- Base classifier macro F1-score = 2.08%
+- Personalized classifier weighted F1-score = 86.27%
+- Personalized classifier macro F1-score = 87.77%
+- Ecart vs essai 15 = -1.09 pts en weighted F1 et -2.44 pts en macro F1 pour le personalized classifier
+- Cible 0.92 atteinte = Non
+Conclusion :
+- Les regles de priorite ont surcontraint la decision et degradent les deux metriques.
+- Le prompt v5 n'est pas retenu comme meilleure configuration.
+- Le meilleur compromis observe reste le prompt v4 de l'essai 15, meme s'il reste sous la cible.
+
+
+Essai 17 :
+Date = 2026-06-03
+Changement principal = retour au prompt v4, meilleur compromis observe avant le prompt v5
+Configuration preparee pour le prochain run :
+- `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
+- prompt actif = prompt `v4` avec guidance sur `Product Support`, `Technical Support`, `Customer Service`, `IT Support` et `Billing and Payments`
+- `use_class_weights = True`
+- `learning_rate = 2e-4`
+- `num_train_epochs = 8`
+- `weight_decay = 0.01`
+- historique du prompt = `prompt_history.md`
+Resultats :
+- A completer apres execution du notebook
+Conclusion attendue :
+- Cet essai sert de nouvelle base de comparaison apres l'echec du prompt v5.
+- S'il ne repasse pas nettement au-dessus de l'essai 15, il faudra considerer que la voie prompt-only est quasiment epuisee.
+
+
+Essai 18 :
+Date = 2026-06-03
+Changement principal = ajustement d'optimisation avec prompt v4 et learning rate plus faible
+Configuration preparee pour le prochain run :
+- `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
+- prompt actif = prompt `v4` avec guidance sur `Product Support`, `Technical Support`, `Customer Service`, `IT Support` et `Billing and Payments`
+- `use_class_weights = True`
+- `learning_rate = 1e-4`
+- `num_train_epochs = 10`
+- `weight_decay = 0.01`
+- historique du prompt = `prompt_history.md`
+Resultats :
+- A completer apres execution du notebook
+Conclusion attendue :
+- Cet essai teste si un apprentissage plus lent mais plus long peut trouver un meilleur optimum que l'essai 15.
+- S'il ne depasse pas l'essai 15, il faudra considerer que le plafond du pipeline est probablement atteint dans ce cadre.
+
 Note :
 Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.
 Le notebook permet maintenant de basculer facilement entre loss ponderee (`use_class_weights = True`) et loss non ponderee (`use_class_weights = False`) pour mesurer l'impact sur le `weighted F1`.
