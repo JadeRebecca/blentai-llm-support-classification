@@ -62,7 +62,7 @@ Nom :
 - `Qwen/Qwen2.5-3B-Instruct`
 
 Statut :
-- Préparé pour le prochain essai
+- Testé et retenu comme meilleure base actuelle du projet
 
 Pourquoi ce choix :
 - Même famille que `Qwen/Qwen2.5-1.5B-Instruct`, donc compatibilité plus probable
@@ -70,8 +70,9 @@ Pourquoi ce choix :
 - Taille plus raisonnable que `Qwen/Qwen2.5-7B-Instruct` dans l'environnement actuel
 
 Résultats marquants :
-- Meilleur résultat observé jusqu'ici : `weighted F1 = 87.54%` et `macro F1 = 93.32%` sur l'essai 13
+- Meilleur résultat observé jusqu'ici : `weighted F1 = 88.99%` et `macro F1 = 91.99%` sur l'essai 14
 
 Commentaire :
 - Ce modèle devient la meilleure base actuelle du projet
 - Les erreurs restantes se concentrent surtout sur les confusions entre `Product Support`, `Technical Support` et `IT Support`
+- Le gain obtenu avec le prompt v3 confirme que la capacité du backbone reste utile, mais que le plafond de performance se joue maintenant dans ces confusions de classes techniques

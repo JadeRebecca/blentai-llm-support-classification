@@ -65,7 +65,7 @@ Commentaire :
 
 Statut :
 - Variante ciblee sur les classes techniques les plus souvent confondues
-- Reference : essai suivant prepare dans `results_tracking.md`
+- Teste dans `Essai 14` de `results_tracking.md`
 
 Contenu :
 
@@ -96,3 +96,5 @@ Answer:
 Commentaire :
 - Ce prompt conserve la structure explicite du prompt v1
 - Il ajoute une aide locale uniquement pour les classes techniques qui restent les plus confondues
+- Il a obtenu `weighted F1 = 88.99%` et `macro F1 = 91.99%` sur l'essai 14
+- Il améliore le `weighted F1` par rapport au prompt v1, mais reste sous la cible de `92%`

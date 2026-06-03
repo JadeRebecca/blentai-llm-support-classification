@@ -317,7 +317,7 @@ Pourquoi tester maintenant un prompt guide sur les classes techniques :
 Essai 14 :
 Date = 2026-05-27
 Changement principal = ajout d'une guidance explicite dans le prompt pour reduire les confusions entre classes techniques proches
-Configuration preparee pour le prochain run :
+Configuration testee :
 - `base_model_id = 'Qwen/Qwen2.5-3B-Instruct'`
 - prompt actif = prompt `v3` avec guidance sur `IT Support`, `Technical Support` et `Product Support`
 - `use_class_weights = True`
@@ -326,10 +326,16 @@ Configuration preparee pour le prochain run :
 - `weight_decay = 0.01`
 - historique du prompt = `prompt_history.md`
 Resultats :
-- A completer apres execution du notebook
+- Base classifier weighted F1-score = 3.29%
+- Base classifier macro F1-score = 2.08%
+- Personalized classifier weighted F1-score = 88.99%
+- Personalized classifier macro F1-score = 91.99%
+- Ecart vs essai 13 = +1.45 pts en weighted F1 et -1.33 pts en macro F1 pour le personalized classifier
+- Cible 0.92 atteinte = Non
 Conclusion attendue :
-- Cet essai verifie si une clarification locale des classes techniques suffit a gagner les derniers points sur le `weighted F1`.
-- S'il n'apporte pas de gain net, il faudra privilegier soit un travail sur les donnees, soit une analyse d'erreurs encore plus fine.
+- Cet essai confirme que la guidance ciblee aide bien le `weighted F1`, mais pas assez pour franchir la cible.
+- Le gain sur `weighted F1` valide l'hypothese de depart, tandis que la baisse du `macro F1` suggere un effet plus localise sur les classes techniques.
+- La prochaine etape la plus utile est une analyse d'erreurs plus fine ou un travail sur les donnees pour traiter les confusions restantes.
 
 Note :
 Le notebook `llm-support-training.ipynb` contient maintenant une cellule supplementaire pour mesurer explicitement le `Base classifier` avant le `Personalized classifier`, ce qui remet une comparaison directe dans la version sequence classification.
